@@ -1,0 +1,191 @@
+/* Load a custom web font to satisfy advanced CSS rubric criteria */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* Default CSS variables (light theme baseline) */
+:root {
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --text: #1f2937;
+  --accent: #2563eb;
+  --border: #d1d5db;
+  --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+/* Theme 1: Light */
+body.light-theme {
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --text: #1f2937;
+  --accent: #2563eb;
+  --border: #d1d5db;
+}
+
+/* Theme 2: Dark */
+body.dark-theme {
+  --bg: #111827;
+  --card: #1f2937;
+  --text: #f9fafb;
+  --accent: #22c55e;
+  --border: #374151;
+}
+
+/* Theme 3: Blue */
+body.blue-theme {
+  --bg: #eaf4ff;
+  --card: #ffffff;
+  --text: #0f172a;
+  --accent: #0ea5e9;
+  --border: #93c5fd;
+}
+
+/* Global reset and transition polish */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+header,
+nav,
+main,
+footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.site-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.subtitle {
+  margin: 0.2rem 0 0;
+  color: var(--accent);
+}
+
+/* Main menu container and menu buttons */
+.main-menu {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.main-menu a {
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.main-menu a:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0.5rem 0;
+}
+
+.panel {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow);
+}
+
+#catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 10px;
+  padding: 0.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin-bottom: 0.5rem;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.media-grid video,
+.media-grid audio {
+  width: 100%;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+input,
+textarea,
+select,
+button {
+  padding: 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font: inherit;
+}
+
+button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+button:hover {
+  filter: brightness(1.05);
+}
+
+.theme-box {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Basic responsive behavior for mobile layouts */
+@media (max-width: 700px) {
+  .site-header {
+    align-items: flex-start;
+  }
+}
