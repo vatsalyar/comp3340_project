@@ -7,7 +7,7 @@ require_once __DIR__ . '/includes/header.php';
 <main>
   <section class="panel">
     <h2>Pickup and Partner Garages</h2>
-    <p><a href="help-ordering.php">Help for pickup and service locations</a></p>
+    <p><a href="help-ordering.html">Help for pickup and service locations</a></p>
     <div id="map" style="height:380px;border:1px solid var(--border);border-radius:10px;"></div>
   </section>
 </main>
