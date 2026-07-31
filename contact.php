@@ -7,7 +7,7 @@ require_once __DIR__ . '/includes/header.php';
 <main>
   <section class="panel">
     <h2>Contact Us</h2>
-    <p><a href="help-ordering.php">Help with ordering form</a></p>
+    <p><a href="help-ordering.html">Help with ordering form</a></p>
     <form id="contactForm">
       <input type="text" name="name" placeholder="Your name" required />
       <input type="email" name="email" placeholder="Your email" required />
