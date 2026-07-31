@@ -7,7 +7,7 @@ require_once __DIR__ . '/includes/header.php';
 <main>
   <section class="panel">
     <h2>USD to CAD Converter</h2>
-    <p><a href="help-theme.php">Theme and tools help</a></p>
+    <p><a href="help-theme.html">Theme and tools help</a></p>
     <form id="currencyForm">
       <input type="number" id="usdAmount" min="0" step="0.01" placeholder="USD amount" required />
       <button type="submit">Convert</button>
