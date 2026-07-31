@@ -19,9 +19,9 @@ require_once __DIR__ . '/includes/header.php';
         <li>#<?= htmlspecialchars($order['order_ref']) ?> - <?= htmlspecialchars($order['status']) ?> (<?= htmlspecialchars($order['created_at']) ?>)</li>
       <?php endforeach; ?>
     </ul>
-    <a href="track-order.php">Track an order</a>
-    <a href="help-ordering.html">Help with ordering</a>
+		<a href="track-order.php">Track an order</a>
   </section>
+  <a href="help-ordering.html">Help with ordering</a>
 </main>
 <?php require_once __DIR__ . '/includes/footer.php'; ?>
 
