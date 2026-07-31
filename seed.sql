@@ -1,3 +1,7 @@
+-- Author: Vatsalya Rastogi (110147846)
+-- Course: COMP3340
+-- Description: DML queries to populate the initial product catalog and admin accounts.
+
 -- Seed data for COMP3340 Civic Parts Depot.
 -- Modified for shared hosting (removed USE statement)
 

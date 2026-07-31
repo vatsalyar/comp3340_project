@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Admin interface for user account management and access control (disabling users).
+ */
 require_once __DIR__ . '/../includes/auth.php';
 require_once __DIR__ . '/../includes/db.php';
 require_admin();

@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Handles new user registration, validation, and password hashing.
+ */
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/db.php';
 require_once __DIR__ . '/includes/auth.php';

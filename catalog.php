@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Retrieves and displays the dynamically generated product catalog.
+ */
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/db.php';
 

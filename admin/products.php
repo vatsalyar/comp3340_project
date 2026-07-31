@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Admin interface for viewing and managing the full product catalog.
+ */
 require_once __DIR__ . '/../includes/auth.php';
 require_once __DIR__ . '/../includes/db.php';
 require_admin();

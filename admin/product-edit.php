@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Administrative form to update individual product details and option pricing.
+ */
 require_once __DIR__ . '/../includes/auth.php';
 require_once __DIR__ . '/../includes/db.php';
 require_admin();

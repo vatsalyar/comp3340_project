@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Utility page for real-time currency conversion.
+ */
 require_once __DIR__ . '/config.php';
 $pageTitle = 'Currency Converter | COMP3340 Civic Parts Depot';
 require_once __DIR__ . '/includes/header.php';

@@ -1,3 +1,7 @@
+-- Author: Vatsalya Rastogi (110147846)
+-- Course: COMP3340
+-- Description: DDL queries to construct the required database tables and relationships.
+
 -- COMP3340 Civic Parts Depot schema
 -- Modified for shared hosting (removed CREATE DATABASE and USE statements)
 

@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Renders an interactive map indicating the store/distribution location.
+ */
 require_once __DIR__ . '/config.php';
 $pageTitle = 'Interactive Map | COMP3340 Civic Parts Depot';
 require_once __DIR__ . '/includes/header.php';

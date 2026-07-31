@@ -1,3 +1,9 @@
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Global stylesheet defining CSS variables, responsive layouts, and themes.
+*/
+
 /* Load a custom web font to satisfy advanced CSS rubric criteria */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 

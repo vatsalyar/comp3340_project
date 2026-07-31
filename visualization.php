@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Data visualization dashboard utilizing interactive charts.
+ */
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/db.php'; // Added DB connection
 

@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Displays detailed information for a single product and handles the order form submission.
+ */
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/db.php'; 
 require_once __DIR__ . '/includes/auth.php'; // Required to check the logged-in user
@@ -61,7 +67,7 @@ $product = $stmt->fetch();
       <p><strong>Category:</strong> <?= htmlspecialchars((string)($product['category'] ?? '')) ?></p>
       <p><strong>Compatibility:</strong> <?= htmlspecialchars((string)($product['compatibility'] ?? '')) ?></p>
       
-      <p><a href="help-fitment.php">Fitment help for this product</a></p>
+      <p><a href="help-fitment.html">Fitment help for this product</a></p>
       
       <hr style="margin: 20px 0;" />
       

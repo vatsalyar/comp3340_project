@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: User dashboard displaying account details and navigation options.
+ */
 require_once __DIR__ . '/config.php';
 require_once __DIR__ . '/includes/auth.php';
 require_login();

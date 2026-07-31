@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Global HTML header, main navigation, and theme initialization.
+ */
 require_once __DIR__ . '/auth.php';
 global $APP_NAME;
 $pageTitle = $pageTitle ?? $APP_NAME;

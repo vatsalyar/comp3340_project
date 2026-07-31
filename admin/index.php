@@ -1,5 +1,11 @@
 <?php
 declare(strict_types=1);
+
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Admin dashboard landing page and control center.
+ */
 require_once __DIR__ . '/../includes/auth.php';
 require_admin();
 ?>

@@ -1,3 +1,9 @@
+/*
+ * Author: Vatsalya Rastogi (110147846)
+ * Course: COMP3340
+ * Description: Client-side interactivity, DOM manipulation, and dynamic API fetching.
+ */
+
 "use strict";
 
 // Runs once page content is ready.
